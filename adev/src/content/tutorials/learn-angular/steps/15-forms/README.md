@@ -37,7 +37,9 @@ import {FormsModule} from '@angular/forms';
   ...
   imports: [FormsModule],
 })
-export class UserComponent {}
+export class UserComponent {
+  favoriteFramework: string = "";
+}
 </docs-code>
 
 </docs-step>
